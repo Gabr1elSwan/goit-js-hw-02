@@ -9,6 +9,8 @@ const formatString = function (string) {
     }
     return string;
 }
+// или можно еще так!
+// const formatString = string => string.length > 40 ? `${string.slice(0, 41)}...` : string;
 
 console.log(formatString("Curabitur ligula sapien, tincidunt non."));
 // вернется оригинальная строка
